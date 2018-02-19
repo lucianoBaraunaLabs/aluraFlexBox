@@ -1,3 +1,4 @@
+/* Aula 01 */
 .cabecalhoPrincipal .container {
     display: flex;
     align-items: center;
@@ -5,5 +6,29 @@
 }
 
 .cabecalhoPrincipal-nav {
+    display: flex;
+}
+
+/* Aula 02 */
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5% ;
+
+}
+
+.rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
