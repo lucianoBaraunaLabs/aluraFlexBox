@@ -32,3 +32,31 @@
 .rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-flow: column wrap;
+    height: 250px;
+}
+
+/* Aula 03 */
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin-bottom: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-left: 0;
+}
